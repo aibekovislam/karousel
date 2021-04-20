@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+.zago{
+	color: #9feaf9;
+	text-align: left;
+	padding-top: 13px;
+	padding-left: 300px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
+
+a:hover{
+	color: #00ffe1;
+}
+
+.main{
+	height: 90px;
+	background-color: #2b2e3b;
+}
+
+#navbar{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+#navbar li { display: inline;
+color: #9feaf9; 
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;}
+
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 45px;
+  list-style-type: none;
+  width: 2500px;
+  text-align: center;
+}
+#navbar a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 190px;
+}
+
+.main2{
+	background-color: #1a1b23;
+	width: 1903px;
+	height: 50px;
+}
+
+.main-text2{
+	color: #9feaf9;
+	text-align: center;
+	padding-top: 17px;
+	letter-spacing: 0.5px;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.support{
+	color: #9feaf9;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+
+.main3{
+	background-color: #2b2e3b;
+	width: 1903px;
+	height: 780px;
+}
+
+.img-logo{
+	position: absolute;
+	left: 680px;
+	padding-top: 190px;
+	animation-name: main-animate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.zago-logo{
+	color: #9feaf9;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 80px;
+	letter-spacing: 15px;
+	position: absolute;
+	left: 695px;
+	bottom: 80px;
+	transition-duration: 0.8s;
+}
+
+.zago-logo:hover{
+	color: #00ffe1;
+}
+
+
+.main4{
+	background-color: white;
+	color: black;
+	width: 1920px;
+	height: 780px;
+}
+
+
+.zago-main4{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+@keyframes main-animate {
+	0%{
+		top: 0px;
+	}
+	50%{
+		top: 20px;
+	}
+	100%{
+		top: 0px;
+	}
+}
+
